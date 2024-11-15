@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     box-sizing:border-box;
+}
+
+*{
+    
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header{
+    background-color: black;
+    color:#4e4eaa;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:70px;
+    width:100%;
+    padding:0px 8%;
+}
+.header .links{
+    display:flex;
+    align-items:center;
+    justify-content: start;
+    gap:30px;
+
+    display: block;
+}
+
+.header .links i{
+    font-size: 20px;
+    margin:5px;
+    
+
+}
+.header .links a{
+    text-decoration:none;
+    color: white;
+    position: relative;
+    margin:15px;
+}
+.header .links a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:0;
+    height:3px;
+    background: white;
+    border-radius: 4px;
+    transition: 0.45s;
+
+}
+.header .links a:hover::after{
+    width:100%;
+
+}
+.header h1{
+    color:transparent;
+    background: linear-gradient(125deg,white,blue,pink);
+    background-clip: text;
+    
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+
+#about {
+    background-color: #ddd;
+}
+
+#services {
+    background-color: #bbb;
+}
+
+#contact {
+    background-color: #999;
+}
+label{
+    color:Grey;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#shop .discover{
+    color:transparent;
+    background: linear-gradient(125deg,white,pink,red);
+    background-clip: text;
+
+}
+#shop h2{
+	margin:20px;
+	font-size:30px;
+}
+
+  .search .inp{
+    height:33px;
+    width:400px;
+    padding:5px; 
+   font-size:15px;
+    background:white;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border:none;
+    margin:auto 0px;
+    
+  }
+  .search input[type=text]:focus{
+   outline:none;
+    
+  }
+  .search{
+    height:35px;
+    background:white;
+    border-radius:20px;
+    
+  }
+  .search a{
+    height:20px;
+    width:300px;
+     
+   font-size:23px;
+    color:black;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+	margin:auto 0px;
+    text-decoration:none;
+     border:none;
+     padding:0.5px;
+     
+  }
+  
+  #searchButton{
+   font-size:20px;
+   color: black;
+   background-color: white;
+   margin-right: 8px;
+   border: none;
+   
+  }
+  
+
+  #images{
+    display:flex;
+    justify-content:space-between;
+  }
+  #price{
+    display:flex;
+    justify-content:space-between;
+    font-size: 30px;
+  }
+  #activated:active{
+    background-color: grey;
+  }
+
+
+footer{
+  height:40vh;
+  width:100%
+}
+.first{
+  display: flex;
+    justify-content: space-around;
+    
+}
+.img2{
+    margin-left:140px;
+}
+.footer-btm{
+  font-size:30px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.first span a{
+  color:black;
+}
+.first span a:hover{
+  color:purple;
+}
+.cont-inp{
+  width:80vh;
+}
+.cont-btn{
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin-left:550px;
+}
+.cont-btn:hover{
+  color: black;
+  transition: 0.5s;
+}
+ .contacts{
+  display:block;
+  margin:auto;
+  justify-content: space-around;
+  text-align: center;
+ } 
+ 
+ btn{
+  margin:0;
+  padding:0;
+ }
+
+
+.logo{
+	display:flex;
+    align-items:center;
+    justify-content: start;
+    gap:10px;
+}
+
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 22%;
+    transition: transform 0.3s ease;
+    display:block;
+  margin:auto;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-content .btn {
+	text-decoration:none;
+    color: Black;
+    font-weight:bold;
+    padding: 10px 15px;
+   border:none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: inset 200px 0px 0px black;
+    color:white;
+    transition:1000ms;
+    border-radius:10px;
+}
+.view{
+	margin-top:120px;
+	margin-right:5px;
+	width:40px;
+	height:40px;
+	padding:4px;
+	border-radius:70%;
+	background:white;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	text-decoration:none;
+	font-size:30px;
+	
+}
+.bcaro{
+	width: 1320px;
+    border-radius: 10px;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:10px;
+    
+}
+.card-container1{
+	display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card-container1 .card{
+	background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 17%;
+    transition: transform 0.3s ease;
+    display:block;
+  margin:auto;
+  justify-content: space-around;
+  text-align: center;
+}
+.footer-container{
+    width:100%;
+    height:300px;
+}
+.footer-container .footer{
+    width:100%;
+    height:300px;
+    background:lightblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-container .copyright{
+    width:100%;
+    height:30px;
+    background:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+.footer-container .footer .cards{
+    width:25%;
+    height:100%;
+    padding:15px 25px;
+}
+.footer .cards .cards-title{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black
+
+}
+.footer .cards p{
+    font-size: 16px;
+    width:100%;
+    text-align:justify;
+    line-height:28px;
+    color:black;
+}
+.footer .cards ul{
+    padding-left:60px;
+}
+.footer .cards ul li{
+    cursor:pointer;
+    transition:all ease-in 0.35s;
+    list-style:none;
+    padding:5px;
+    font-size:20px;
+   
+}
+.footer .cards ul li a{
+    text-decoration:none;
+    color:black;
+}
+.footer .cards ul li:hover{
+    transform:translateX(20px);
+    font-weight: bold;
+
+}
+.footer .cards .footer-box{
+    width:100%;
+    padding:8px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.footer .cards .footer-box i{
+font-size: 30px;
+color:black;
+}
+
+.social{
+	 display:flex;
+	 justify-content: center;
+    align-items: center;
+     width:100%;
+    height:50px;
+    font-size:30px;
+    
+    gap:30px;
+}
+.social a{
+	text-align:center;
+}
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 70px;
+    right:0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    z-index: 100;
+    color: white;
+}
+
+
+/* Sidebar content */
+.sidebar h2 {
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar p {
+    margin: 20px;
+    font-size: 18px;
+    color: #fff;
+    padding:0 5px;
+}
+
+/* Close button inside the sidebar */
+.sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+   
+    background-color:maroon;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Button to open the sidebar */
+.open-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.open-btn:hover {
+    background-color: #555;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-results {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-result-item:hover {
+    background: #f5f5f5;
+}
+
+.search-result-item .price {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.purchase{
+	 font-size: 20px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: 2px solid white;
+    border-radius:5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
+.purchase:hover{
+	background-color: #555;
+}

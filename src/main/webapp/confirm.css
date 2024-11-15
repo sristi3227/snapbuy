@@ -1,0 +1,159 @@
+@charset "UTF-8";
+body {
+            font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     box-sizing:border-box;
+      background-image: url('reg&log/wp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-color: #000; 
+            color: white;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: black; 
+            margin-top:60px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid red;
+        }
+        td {
+            background-color: black;
+        }
+
+        th {
+            background-color: black;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn, .pay-now-btn {
+        
+           
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .btn:hover, .pay-now-btn:hover {
+            background-color: #218838;
+        }
+
+        .pay-now-btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+           
+            color: white;
+             background-color: black;
+            border:2px solid white;
+        }
+
+        .pay-now-btn:hover {
+            background-color: white;
+            color:black;
+        }
+
+        .payment-options {
+            margin-top: 20px;
+        }
+        #address{
+        	width:100%;
+        	margin:auto;
+        	border:none;
+        	background:black;
+        	border-bottom:3px solid red;
+        	border-radius:0px;
+        	outline:none;
+        	color:white;
+        }
+        input[type="radio"] {
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        margin: 0;
+        font: inherit;
+        width: 1.15em;
+        height: 1.15em;
+        border: 0.15em solid #333;
+        border-radius: 50%;
+        display: grid;
+        place-content: center;
+        cursor: pointer;
+        border:1px solid red;
+    }
+    input[type="radio"]::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        background-color: red; /* Set to red */
+        border:red;
+    }
+    input[type="radio"]:checked::before {
+        transform: scale(1);
+    }
+    .radio-label {
+        display: inline-block;
+        margin-left: 3px;
+        font-size: 16px;
+        vertical-align: middle; /* Aligns text with radio button */
+    }
+    .radiobtn{
+    display:flex;
+    justify-items:left;
+    align-items:left;
+    gap:2px;
+    }
+    .inputs{
+    border:none;
+    background:black;
+    width:200px;
+    outline:none;
+    border-bottom:1px solid red;
+    size:20px;
+    color:white
+    }
+    
+    

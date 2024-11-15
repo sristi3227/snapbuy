@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Landing Page</title>
+    <link rel="stylesheet" href="Styleweb2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+   </head>
+<body style="background-color:black; margin:auto">
+  
+   
+
+    <div class="header border-container">
+    <div class=logo>
+    <div><img src="images/logo.jpg" height="60px"></div>
+        <h1>SnapBuy</h1>
+        <div class="search">
+				<input type="text" placeholder="Search Trendy Outfits" class="inp">
+				<a href="#" class="icon"><i class="ri-search-eye-line"></i></a>
+			</div>
+			</div>
+		<div class="links">
+		            <a href="login.jsp" title="Login" class="menu fw-bold"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>Login</a>
+		
+            <a href="#shop" class="menu fw-bold"><i class="fa fa-shopping-cart " aria-hidden="true"></i>Shop</a>
+            <a href="#contact" class="menu fw-bold"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a>
+        </div>
+    </div>
+    <br>
+    <div id="home">
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="carousel-item">
+                <a href="https://www.example.com/link1" target="_blank">
+                    <img src="img/first.jpg" alt="Image 1">
+                </a>
+                
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example.com/link2" target="_blank">
+                    <img src="img/First3.jpg" alt="Image 2">
+                </a>
+               
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example.com/link3" target="_blank">
+                    <img src="img/First4.jpg" alt="Image 3">
+                </a>
+              
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example.com/link4" target="_blank">
+                    <img src="img/First5.jpg" alt="Image 4">
+                </a>
+               
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+   </div>
+    <br><br>
+    <div id="shop" style="background-color:black">
+        <h1 class="discover" style="font-size:80px; text-align:center;" >Discover your Unique Style</h1><br>
+       <h2 Style="color:white">Top deals On Fashion</h2>
+     <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="images/Top1.jpg" alt="Image 1" height="200px" width="200px">
+            <div class="card-content">
+                <h3>Stylish Trendy Women Tops</h3>
+                <div class="options"><p>50%off</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+
+         <div class="card">
+            <img src="images/shirt1.jpg" alt="Image 1" height="200px" width="200px">
+            <div class="card-content">
+                <h3>Stylish Shirts</h3>
+                <div class="options"><p>New collections</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="images/shoe1.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Trendy Shoes</h3>
+                     <div class="options"><p>From Rs.150</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+     
+               
+
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+         <div class="card">
+            <img src="images/hood1.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Cool Hoodies</h3>
+                <div class="options"><p>Grab now</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+                
+            </div>
+        </div>
+        <a href="login.jsp" title="Haven't login yet? Click to Login" class="view"><i class="ri-arrow-drop-right-line"></i></a>
+        <br>
+        <div class="bcaro"><a href="https://www.example.com/link4" target="_blank">
+                    <img src="img/fashion.png" alt="Image 4" class="bcaro">
+                </a></div>
+        
+    </div>
+    <br><br>
+    
+    <!-----------------------------------------------------------------------------------  -->
+          
+           <h2 Style="color:white">Upgrade Your Life with Smart Electronics</h2>
+    <div class="card-container">
+    <div class="card">
+            <img src="images/headphone.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Best Wireless Headphones</h3>
+                
+                <div class="options"><p>Grab now</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="images/printer.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Digital Printers</h3>
+                <div class="options"><p>From Rs.300</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/monitor.jpg" alt="Image 1" height="100px" width="100px">
+            <div class="card-content">
+                <h3>FullHD Monitors</h3>
+                <div class="options"><p>From Rs.2000</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+
+        <!-- Card 3 -->
+         <div class="card">
+            <img src="images/projector.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Projectors</h3>
+                <div class="options"><p>From Rs.2050</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+                <a href="#" class="view"><i class="ri-arrow-drop-right-line"></i></a>
+        
+    </div>
+    
+     <div class="bcaro"><a href="https://www.example.com/link4" target="_blank">
+                    <img src="img/caro2.jpeg" alt="Image 4" class="bcaro">
+                </a></div>
+       <div class="bcaro"><a href="https://www.example.com/link4" target="_blank">
+                    <img src="img/caro6.png" alt="Image 4" class="bcaro">
+                </a></div>
+        <!-----------------------------------------------------------------------------------  -->
+    
+    <h2 Style="color:white">TV Appliances& More</h2>
+    <div class="card-container">
+    <div class="card">
+            <img src="images/tv1.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>HD Ready LED TV</h3>
+                
+                <div class="options"><p>75% Off</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="images/fridge1.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Five Star Refrigerator</h3>
+                <div class="options"><p>From Rs.5000</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Mix.jpg" alt="Image 1" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Juicer Mixer Grinder</h3>
+                <div class="options"><p>Buy now</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+
+        <!-- Card 3 -->
+         <div class="card">
+            <img src="images/heater.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Room Heater</h3>
+                <div class="options"><p>40% Off</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+                <a href="#" class="view"><i class="ri-arrow-drop-right-line"></i></a>
+        
+    </div>
+    
+            <!-----------------------------------------------------------------------------------  -->
+       <h2 Style="color:white">SpecialDeals on SmartPhones</h2>
+    <div class="card-container1">
+    <div class="card">
+            <img src="images/phone1.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Samsung S22 Ultra</h3>
+                
+                <div class="options"><p>40% Off</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        <div class="card">
+         <img src="images/Phone2.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Moto5G</h3>
+                
+                     <div class="options"><p>144Hz Curved display</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+                
+                
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <img src="images/phone3.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>One Plus</h3>
+                     <div class="options"><p>Add to Cart</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/phone4.png" alt="Image 1" height="100px" width="100px">
+            <div class="card-content">
+                <h3>RedmeA2</h3>
+                     <div class="options"><p>From Rs.7999</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+
+        <!-- Card 3 -->
+         <div class="card">
+            <img src="images/phone5.jpg" alt="Image 2" height="100px" width="100px">
+            <div class="card-content">
+                <h3>Google Pixel 8Pro</h3>
+                     <div class="options"><p>30% Off</p><a href="#" class="btn"><i class="ri-shopping-cart-fill"></i></a></div>
+            </div>
+        </div>
+        
+               
+        
+    </div>
+    <div class="bcaro"><a href="https://www.example.com/link4" target="_blank">
+                    <img src="img/caro3.png" alt="Image 4" class="bcaro">
+                </a></div>
+   
+ </div>
+ 
+ 
+        <br>
+        
+        
+
+   <div class="footer-container">
+        <div class="footer">
+        
+        <div class="cards">
+                <div class="cards-title"><h2>About</h2></div>
+                <div>
+                    <ul>
+                        <li><a href="#home" class="fw-bold"><i class="fa fa-home me-1" aria-hidden="true"></i>Home</a></li>
+            			<li><a href="#category" class="fw-bold"><i class="fa fa-shopping-cart " aria-hidden="true"></i>Category</a></li>
+           				 <li><a href="#contact" class="fw-bold"><i class="fa fa-phone " aria-hidden="true"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-title"><h2>SnapBuy</h2></div>
+                <div><p>At SnapBuy, we believe in delivering a seamless, enjoyable, and trendy shopping experience. From the latest fashion apparel to cutting-edge electronics, we curate a wide range of high-quality products to meet your every need.</p></div>
+            </div>
+            
+            <div class="cards">
+                <div class="cards-title"><h2>Mail Us:</h2></div>
+                
+                 <div class="footer-box">
+                    
+                    <i class="ri-mail-open-line"></i>
+                    <p style="font-weight:bold">snapbuyindia@gmail.com</p>
+                </div>   
+                  <div><br>
+                  <div class="cards-title"><h2>Social:</h2></div>
+                  <div class="footer-box">
+                    
+                     <div class="social">
+                <a href="https://www.linkedin.com/in/sristi-mazumder-621720254/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/mazumder.sristi/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/sristi.mazumder/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                </div>
+                </div> 
+                </div>
+
+                
+            </div>
+            <div class="cards">
+
+                <div class="cards-title"><h2>Help</h2></div>
+					 <div>
+                    <ul>
+                        <li><a href="#home" class="fw-bold"></i>Payment&Shipping</a></li>
+            			<li><a href="#category" class="fw-bold">FAQ</a></li>
+           				 <li><a href="#contact" class="fw-bold">Terms Of Use</a></li>
+                    </ul>
+                </div>
+                <div class="updates">
+                   
+
+
+                    
+                </div>
+            </div>
+            </div>
+            <div class="copyright">
+    <p>&copy;2024.snapbuy All rights reserved</p></div>
+            </div>
+            
+    <script src="script.js"></script>
+</body>
+</html>
