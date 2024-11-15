@@ -9,7 +9,7 @@
     <h2>Thank you for adding the item to your history!</h2>
     <p>Your item has been added to the history successfully.</p>
     <form action="purchaseHistory.jsp" method="get">
-        <button type="submit" style="margin-top: 20px;">View Purchase History</button>
+        <button type="submit" style="margin-top: 20px;">Purchase History</button>
     </form>
 </div>
 </body>
