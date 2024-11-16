@@ -1,16 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Buy Confirmation</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="UTF-8">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="confirmation.css">
 </head>
 <body>
-<div class="container">
-    <h2>Thank you for adding the item to your history!</h2>
-    <p>Your item has been added to the history successfully.</p>
-    <form action="purchaseHistory.jsp" method="get">
-        <button type="submit" style="margin-top: 20px;">Purchase History</button>
-    </form>
-</div>
+    <div class="confirmation-container">
+        <h1>Thank You for Your Purchase!</h1>
+        <p>Your order has been successfully placed.</p>
+        
+        <div class="order-details">
+            <p><strong>Order ID:</strong> <%= request.getAttribute("orderId") %></p>
+            <p><strong>Product:</strong> <%= request.getAttribute("productName") %></p>
+            <p><strong>Amount Paid:</strong> <%= request.getAttribute("amountPaid") %></p>
+        </div>
+        
+        <p>We will notify you when your item has shipped.</p>
+        <a href="dashboard.jsp">Continue Shopping</a>
+    </div>
 </body>
 </html>

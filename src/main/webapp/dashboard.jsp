@@ -58,6 +58,12 @@
 
 	
 %>
+<!-- Prevent caching -->
+    <%
+        response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1
+        response.setHeader("Pragma", "no-cache"); // HTTP 1.0
+        response.setHeader("Expires", "0"); // Proxies
+    %>
 	
 	<div class="header border-container">
     <div class=logo>
@@ -406,6 +412,12 @@
         }
     });
     
+   
+    function preventBack() {
+        window.history.forward(); 
+    }
+    setTimeout("preventBack()", 0);
+    window.onunload = function () { null };
 </script>
 </body>
 </html>

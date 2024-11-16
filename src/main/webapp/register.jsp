@@ -20,8 +20,7 @@
 		<div class="background"></div>
 		<form action='register.jsp' method='post' id="regForm" onsubmit='return validateForm()'>
 			<div class="title">
-				<h2 style="text-align:center; font-size:40px">Welcome To SnapBuy</h2>
-				<h5 style="color:white; text-align:center">Your one-stop shopping destination</h5>
+				<h2>Register</h2>
 			</div>
 			<div class="form-field">
 				<i class="ri-user-4-fill"></i>
@@ -48,7 +47,7 @@
 			</div><br>
 			<p style='margin-top: 5px;
     font-weight: 510;'>Already have an account?<br>
-			<a href="login.jsp" style="text-decoration:none">click here</a> to Login</p>
+			<a href="index.jsp" style="text-decoration:none">click here</a> to Login</p>
 		</form>
 		
 	</div>
