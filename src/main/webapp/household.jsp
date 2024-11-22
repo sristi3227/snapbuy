@@ -18,10 +18,7 @@
     <div class=logo>
     <div><img src="images/logo.jpg" height="60px"></div>
         <h1>SnapBuy</h1>
-        <div class="search">
-				<input type="text" placeholder="Search Trendy Outfits" class="inp">
-				<a href="#" class="icon"><i class="ri-search-eye-line"></i></a>
-			</div>
+        
 		</div>
 		<div class="links">
             <a href="logout.jsp" title="Logout" class="menu fw-bold"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>Logout</a>

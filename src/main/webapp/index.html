@@ -9,6 +9,8 @@
 	<link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
 
+
+
    </head>
 <body style="background-color:black; margin:auto">
   
@@ -26,7 +28,7 @@
 		<div class="links">
 		            <a href="login.jsp" title="Login" class="menu fw-bold"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>Login</a>
 		
-            <a href="#shop" class="menu fw-bold"><i class="fa fa-shopping-cart " aria-hidden="true"></i>Shop</a>
+            <a href="#home" class="menu fw-bold"><i class="fa fa-shopping-cart " aria-hidden="true"></i>Shop</a>
             <a href="#contact" class="menu fw-bold"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a>
         </div>
     </div>
@@ -285,13 +287,13 @@
                 <div><p>At SnapBuy, we believe in delivering a seamless, enjoyable, and trendy shopping experience. From the latest fashion apparel to cutting-edge electronics, we curate a wide range of high-quality products to meet your every need.</p></div>
             </div>
             
-            <div class="cards">
+            <div class="cards" id="contact" style="background-color:lightblue;">
                 <div class="cards-title"><h2>Mail Us:</h2></div>
                 
                  <div class="footer-box">
                     
                     <i class="ri-mail-open-line"></i>
-                    <p style="font-weight:bold">snapbuyindia@gmail.com</p>
+                    <a href="snapbuyindia@gmail.com" style="font-weight:bold; color:black; text-decoration:none">snapbuyindia@gmail.com</a>
                 </div>   
                   <div><br>
                   <div class="cards-title"><h2>Social:</h2></div>
@@ -313,7 +315,6 @@
 					 <div>
                     <ul>
                         <li><a href="#home" class="fw-bold"></i>Payment&Shipping</a></li>
-            			<li><a href="#category" class="fw-bold">FAQ</a></li>
            				 <li><a href="#contact" class="fw-bold">Terms Of Use</a></li>
                     </ul>
                 </div>
@@ -329,6 +330,35 @@
     <p>&copy;2024.snapbuy All rights reserved</p></div>
             </div>
             
-    <script src="script.js"></script>
+    <script>
+    let slideIndex = 0;
+    const slides = document.querySelector('.carousel-slide');
+    const totalSlides = document.querySelectorAll('.carousel-item').length;
+
+    function moveSlide(n) {
+        slideIndex += n;
+
+     
+        if (slideIndex >= totalSlides) {
+            slideIndex = 0;
+        } else if (slideIndex < 0) {
+            slideIndex = totalSlides - 1;
+        }
+
+       
+        slides.style.transform = `translateX(${-slideIndex * 100}%)`;
+    }
+
+
+    setInterval(() => {
+        moveSlide(1);
+    }, 3000);
+
+
+        
+
+
+
+    </script>
 </body>
 </html>

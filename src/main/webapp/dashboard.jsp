@@ -380,7 +380,7 @@
         const searchTerm = searchInput.value.toLowerCase();
         const fashions = ['tops', 'shirt', 'hoodie', 'shoes'];
         const households = ['tv', 'heater', 'fridge'];
-        // const phones = []
+       // const phones = ['mobile','phone','gadget'];
 
         // Check if any fashion word exists in the search term
         const hasFashionMatch = fashions.some(fashion => 
@@ -392,16 +392,16 @@
             searchTerm.split(' ').some(word => word === household)
         );
         
-        // const hasPhoneMatch = phones.some(phone => 
-        // searchTerm.split(' ').some(word => word === phone)
-        //)
+       // const hasPhoneMatch = phones.some(phone => 
+        //searchTerm.split(' ').some(word => word === phone)
+       // );
 
         if (hasFashionMatch) {
             window.location.href = 'fashion.jsp';
         } else if (hasHouseholdMatch) {
             window.location.href = 'household.jsp';
         } //else if(hasPhoneMatch) {
-        	// window.location.href = 'phone.jsp';
+        //	window.location.href = 'phone.jsp';
         //}
     });
 

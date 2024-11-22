@@ -20,3 +20,8 @@ function moveSlide(n) {
 setInterval(() => {
     moveSlide(1);
 }, 3000);
+
+
+    
+
+
