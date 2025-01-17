@@ -25,5 +25,6 @@ SnapBuy is a sleek and user-friendly e-commerce website designed to provide cust
 
 ## Acknowledgements
 Special thanks to my teammates:
+**Sristi Mazumder**
 **Tanisha Kumari** and
 **Vinisha Victor**
