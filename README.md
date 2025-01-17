@@ -24,7 +24,8 @@ SnapBuy is a sleek and user-friendly e-commerce website designed to provide cust
 **HTML/CSS/JavaScript** for frontend design and interactivity
 
 ## Acknowledgements
-Special thanks to my teammates:
-**Sristi Mazumder** ,
-**Tanisha Kumari** and
-**Vinisha Victor**
+**Sristi Mazumder**: Project lead, Backend Development 
+
+**Tanisha Kumari**:  Information gathering and frontend development
+
+**Vinisha Victor**:  Frontend development and User interface design.
