@@ -17,11 +17,11 @@ SnapBuy is a sleek and user-friendly e-commerce website designed to provide cust
 **Order History:** Users can view their past purchases, including product images, total price, purchase date, and even cancel orders if required.
 
 ## Technologies Used:
-**Java (JSP)** for backend development
+**Java (JSP)** for backend development.
 
-**MySQL** for database management
+**MySQL** for database management.
 
-**HTML/CSS/JavaScript** for frontend design and interactivity
+**HTML/CSS/JavaScript** for frontend design and interactivity.
 
 ## Acknowledgements
 **Sristi Mazumder**: Project lead, Backend Development 
