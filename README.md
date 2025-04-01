@@ -1,4 +1,4 @@
-# SnapBuy - E-Commerce Website
+#  SnapBuy - E-Commerce Website
 ## Overview
 SnapBuy is a sleek and user-friendly e-commerce website designed to provide customers with a smooth shopping experience. Built with Java (JSP), MySQL, and advanced web development technologies, the platform enables users to browse, search, add items to the cart, and make purchases with ease.
 
